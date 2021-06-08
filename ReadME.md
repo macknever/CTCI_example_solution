@@ -5,10 +5,16 @@
 ### Quick Sort
 
 - randomly choose a pivot, seperate the array into LEFT and RIGHT
+
 - items which are less than pivot, put in LEFT
+
 - items which are greater than pivot, put in RIGHT
+
 - Quick sort LEFT
+
 - Quick sort RIGHT
+
+  [![Quick Sort](https://img.youtube.com/vi/Fnpa1KtwJsA/0.jpg)](https://www.youtube.com/watch?v=Fnpa1KtwJsA "Quick Sort")
 
 ### Merge Sort
 
