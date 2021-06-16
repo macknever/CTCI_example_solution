@@ -35,16 +35,16 @@ class Sort:
 
     def quickSort(self, nums):
         l = len(nums)
-        self.quickSortHelper(nums, 0, l-1)
+        self.quickSortHelper(nums,0,l-1)
 
-    def quickSortHelper(self, nums, left, right):
+    def quickSortHelper(self,nums,left, right):
 
         if left >= right:
             return
         pivot = nums[left]
         start = left
         end = right
-
+       
         while start < end:
             while start < end and nums[end] > pivot:
                 end -= 1
@@ -57,12 +57,15 @@ class Sort:
                 nums[end] = nums[start]
                 end -= 1
         nums[start] = pivot
+        
+        self.quickSortHelper(nums,left,start - 1)
+        self.quickSortHelper(nums,start + 1, right)
+    
 
-        self.quickSortHelper(nums, left, start - 1)
-        self.quickSortHelper(nums, start + 1, right)
 
 
-# test functions
+
+
 if __name__ == "__main__":
 
     sort = Sort()
