@@ -53,7 +53,7 @@ Easy but useful algorithm. Searching target value from a sorted array
 
      Comparing the last element of A and B, choose the larger one and insert it to the <u>*end*</u> of A
 
-     [code](CTCI10.java)
+     [10.2](CTCI10.java)
 
    
 
