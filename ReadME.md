@@ -49,11 +49,29 @@ Easy but useful algorithm. Searching target value from a sorted array
 
    end to hold B. Write a method to merge B into A in sorted order.
 
-   - Solution
+   - 10.1 Solution
 
      Comparing the last element of A and B, choose the larger one and insert it to the <u>*end*</u> of A
 
-     [code](CTCI10.java)
+     [10.1 code](CTCI10.java)
 
-   
+2.   **Group Anagrams**: Write a method to sort an array of strings so that all the anagrams are next to
+
+     each other.
+
+     - 10.2 Solution
+
+       Anagrams are words or phrases share the same characters but not in the same order.
+
+       What we need to do is group up the anagrams.
+
+       <u>*How to make sure if two words are anagrams?*</u>
+
+       Check characters and their occurrences.
+
+       <u>*How to group up?*</u>
+
+       Use a hashmap <String, List>, where the list is the group, the String is an alphabetical String to represent anagrams
+
+       [10.2 code](CTCI10.java)
 
