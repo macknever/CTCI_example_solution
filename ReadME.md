@@ -52,12 +52,10 @@ Easy but useful algorithm. Searching target value from a sorted array
    - 10.1 Solution
 
      Comparing the last element of A and B, choose the larger one and insert it to the <u>*end*</u> of A
-
-<<<<<<< HEAD
+     
      [10.1 code](CTCI10.java)
-=======
-     [10.2](CTCI10.java)
->>>>>>> a21539f389b7ae720b4ea66893d9be52a733eef2
+
+
 
 2.   **Group Anagrams**: Write a method to sort an array of strings so that all the anagrams are next to
 
