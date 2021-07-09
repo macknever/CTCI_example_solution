@@ -40,3 +40,20 @@ Easy but useful algorithm. Searching target value from a sorted array
 - if equals. DONE
 - if less. Binary Search left part.
 - if greater. Binary Search right part.
+
+
+
+### Interview Questions
+
+1.   **Sorted Merge**: Given two sorted arrays, A and B, where A has a large enough buffer at the
+
+   end to hold B. Write a method to merge B into A in sorted order.
+
+   - Solution
+
+     Comparing the last element of A and B, choose the larger one and insert it to the <u>*end*</u> of A
+
+     [code](CTCI10.java)
+
+   
+
